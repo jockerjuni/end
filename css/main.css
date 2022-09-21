@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.header__nav{
+   background-color: rgb(34, 25, 25);
+   width: 100%;
+
+}
+.header__list {
+    display: flex;
+    padding: 0 10px ;
+}
+.header__link{
+    color: white;
+    font-weight: 800;
+    padding: 0 13px ;
+    align-self: center;
+}
+.header__item{
+    display: flex;
+    justify-content: space-between;
+}
+.main__section{
+    background-color: rgb(20, 19, 19);
+    height: 500px;
+    background: url(../img/Header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 85px;
+    padding-top: 170px;
+    
+}
+.header__icon{
+    align-self: center;
+}
+.search {
+   width: 25px;
+   height: 25px;
+   padding-top: 20px;
+}
+button {
+    padding: 7px 20px ;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-left: 430px;
+}
+.main__section-1 {
+    background-color: rgb(20, 19, 19);
+    padding-top: 50px;
+
+    
+}
+.item {
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.main__img {
+    
+    background-size: cover;
+    max-width: 450px;
+    width: 100%;
+}
+p {
+    color: white;
+    padding-top: 50px;
+    width: 80%;
+
+}
+.p {
+    color: white;
+    align-self: center; 
+}
+.p1 {
+    color: white;
+    align-self: center;
+    padding-left: 30px;
+    text-align: right;
+}
+
+.p2 {
+    align-self: center;
+    padding-right: 20px;
+   
+}
+.boxs div {
+    width: 220px;
+    height: 270px;
+    border: 1px solid red;
+    border-radius: 4px;
+   background-color: white;
+    
+    
+}
+.boxs {
+    display: flex;
+    
+    column-gap: 15px;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    
+}
+.box b {
+    padding-top: 6px;
+    padding-bottom: 10px;
+}
+.box {
+    text-align: center;
+}
+.box p {
+    color: black;
+    text-align: center;
+    padding-top: 7px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+.box a {
+    
+    padding: 5px 38px;
+    background-color: black;
+    color: white;
+}
+
+.box img {
+    height: 170px;
+}
+.box .img3 {
+    height: 170px;
+    width: 140px;
+}
+footer {
+    background-color: rgb(34, 25, 25);
+    padding: 25px 0;
+}
+.header__icon img{
+   width: 50px; 
+   padding: 5px 5px;
+}
